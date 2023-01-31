@@ -1,0 +1,113 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #AFADAD;
+}
+
+
+.background{
+    width: 500px;
+    height: 700px;
+    background-color: #42515A;
+    border-radius: 20px;
+    position: absolute;
+    top: 150px;
+} 
+
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main h2{
+    position: relative;
+    text-align: center;
+    top: 200px;
+    font-size: 35px;
+    color: rgb(207, 0, 207);
+}
+
+.main .email{
+    position: relative;
+    text-align: center;
+    top: 220px;
+    font-size: 25px;
+    color: #AFADAD;
+}
+
+.main .work{
+    position: relative;
+    text-align: center;
+    top: 250px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.icon{
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 10px solid rgb(207, 0, 207);
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    justify-content: center;
+    display: flex;
+}
+
+.icon .icons{
+    font-size: 160px;
+    position: absolute;
+    top: 50px;
+}
+
+.background ul{
+    display: flex;
+    position: relative;
+    top: 320px;
+    list-style: none;
+}
+
+.background li{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(207, 0, 207) ;
+    margin-left: 20px; 
+    border-radius: 50%;
+}
+
+.background .item{
+    font-size: 50px;
+    color: white;
+    position: relative;
+    top: 25px;
+    left: 25px;
+
+}
+
+.footer{
+    width: 500px;
+    height: 102px;
+    background-color:rgb(207, 0, 207);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    top: 400px;
+
+}
+
+.footer p{
+    position: relative;
+    top: 35px;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+}

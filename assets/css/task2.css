@@ -1,0 +1,301 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: gray;
+}
+
+.main{
+    justify-content: space-evenly;
+    display: flex;
+    position: relative;
+    top: 150px;
+    
+
+}
+
+.london{
+    width: 400px;
+    height: 650px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.london img{
+width: 400px;
+height: 250px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.london h4{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: magenta;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.london h2{
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.london p{
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: 55px;
+    top: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.london .all{
+    display: flex;
+    position: relative;
+    top: 50px;
+    
+}
+
+.all .viev{
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    width: 135px;
+    font-size: 21px;
+    height: 63px;
+    background-color: magenta;
+    border: 2px rgb(173, 0, 173) solid;
+    border-bottom-left-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.all .comments{
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    width: 135px;
+    font-size: 20px;
+     height: 63px;
+     background-color: magenta;
+     border: 2px rgb(173, 0, 173) solid;
+     font-family: 'Montserrat', sans-serif;
+
+}
+
+.all .rating{
+    color: white;
+    text-align: center;
+    width: 130px;
+    font-size: 23px;
+     height: 63px;
+     background-color: magenta;
+     border: 2px rgb(173, 0, 173) solid;
+     font-family: 'Montserrat', sans-serif;
+    border-bottom-right-radius: 30px;
+}
+
+
+.newyork{
+    width: 400px;
+    height: 650px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.newyork img{
+    width: 400px;
+    height: 250px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    
+    .newyork h4{
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        color: orange;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .newyork h2{
+        font-size: 35px;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+    
+    .newyork p{
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        left: 55px;
+        top: 30px;
+        color: rgb(0, 0, 0);
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .newyork .all{
+        display: flex;
+        position: relative;
+        top: 50px;
+        
+    }
+    .newyork .all .viev{
+        color: white;
+        padding-top: 5px;
+        text-align: center;
+        width: 135px;
+        font-size: 21px;
+        height: 63px;
+        background-color: #ff5e00;
+        border: 2px #df5200 solid;
+        border-bottom-left-radius: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .newyork .all .comments{
+        color: white;
+        padding-top: 5px;
+        text-align: center;
+        width: 135px;
+        font-size: 20px;
+         height: 63px;
+         background-color:#ff5e00;
+         border: 2px #df5200 solid;
+         font-family: 'Montserrat', sans-serif;
+    
+    }
+    
+    .newyork .all .rating{
+        color: white;
+        text-align: center;
+        width: 130px;
+        font-size: 23px;
+         height: 63px;
+         background-color: #ff5e00;
+         border: 2px #df5200 solid;
+         font-family: 'Montserrat', sans-serif;
+        border-bottom-right-radius: 30px;
+    }
+    
+
+
+
+.morocco{
+    width: 400px;
+    height: 650px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.morocco img{
+    width: 400px;
+    height: 250px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    
+    .morocco h4{
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        color: rgb(26, 224, 0);
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .morocco h2{
+        font-size: 35px;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+    
+    .morocco p{
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        left: 55px;
+        top: 30px;
+        color: rgb(0, 0, 0);
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .morocco .all{
+        display: flex;
+        position: relative;
+        top: 50px;
+        
+    }
+
+    .morocco .all .viev{
+        color: white;
+        padding-top: 5px;
+        text-align: center;
+        width: 135px;
+        font-size: 21px;
+        height: 63px;
+        background-color: #00cd06;
+        border: 2px #00eb07 solid;
+        border-bottom-left-radius: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .morocco .all .comments{
+        color: white;
+        padding-top: 5px;
+        text-align: center;
+        width: 135px;
+        font-size: 20px;
+         height: 63px;
+         background-color:#00cd06;
+         border: 2px #00eb07 solid;
+         font-family: 'Montserrat', sans-serif;
+    
+    }
+    
+    .morocco .all .rating{
+        color: white;
+        text-align: center;
+        width: 130px;
+        font-size: 23px;
+         height: 63px;
+         background-color: #00cd06;
+         border: 2px #00eb07 solid;
+         font-family: 'Montserrat', sans-serif;
+        border-bottom-right-radius: 30px;
+    }
+    
